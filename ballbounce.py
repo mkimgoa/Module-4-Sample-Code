@@ -26,14 +26,14 @@ def update():
   if ballX < ballSize:
     ballX = ballSize
     speedX = -speedX
-  if ballX > 800-ballSize:
-    ballX = 800-ballSize
+  if ballX > WIDTH-ballSize:
+    ballX = WIDTH-ballSize
     speedX = -speedX
   if ballY < ballSize:
     ballY = ballSize
     speedY = -speedY
-  if ballY > 600-ballSize:
-    ballY = 600-ballSize
+  if ballY > HEIGHT-ballSize:
+    ballY = HEIGHT-ballSize
     speedY = -speedY
     
 
