@@ -1,14 +1,16 @@
 import pgzrun
 import random
 
+WIDTH = 800
+HEIGHT = 600
+
 ballSize = 40
-ballX = random.randint(100,700)
-ballY = random.randint(100,500)
+ballX = random.randint(ballSize,WIDTH-ballSize)
+ballY = random.randint(ballSize,HEIGHT-ballSize)
 speedX = random.uniform(-3,3)
 speedY = random.uniform(-3,3)
 
-WIDTH = 800
-HEIGHT = 600
+
 
 
 
